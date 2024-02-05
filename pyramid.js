@@ -10,7 +10,7 @@ function createNestedArray(inputArray) {
         const currentRow = Array.from({ length: i }, () => sortedArray[currentIndex++]);
         outputArray.push(currentRow);
     }
-
+    console.log(outputArray);
     return outputArray;
 }
 
